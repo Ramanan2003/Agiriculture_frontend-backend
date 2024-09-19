@@ -1,0 +1,98 @@
+
+
+.bg-color {
+  background-image: url("../images/rename.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;  /* Use 'cover' to make sure the background covers the entire container */
+  background-position: center;  /* Center the background image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.login-container {
+  background-color: #3498db;
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  background-color:transparent;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.login-container:hover {
+  transform: scale(1.02);
+}
+
+.login-h2 {
+  text-align: center;
+  color: #3498db;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: transparent;
+
+}
+
+.login-label {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  color:#3498db;
+}
+
+.login-input {
+  margin-top: 10px;
+  padding: 12px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: border-color 0.3s;
+}
+
+.login-input:focus {
+  border-color: #56bd9e;
+}
+
+.login-button {
+  background-color: #56bd9e;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #5db99d;
+}
+
+.login-p {
+  margin-top: 25px;
+  text-align: center;
+  color: #1710a2;
+  font-size: 16px;
+}
+
+.login-a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.login-a:hover {
+  color: #56bd9e;
+}

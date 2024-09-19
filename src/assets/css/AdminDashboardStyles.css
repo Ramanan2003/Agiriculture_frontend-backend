@@ -1,0 +1,64 @@
+/* AdminDashboardStyles.css */
+.admin-color {
+  background-image: url("../images/addash.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;  /* Use 'cover' to make sure the background covers the entire container */
+  background-position: center;  /* Center the background image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  button {
+    margin-right: 5px;
+    cursor: pointer;
+  }
+  
+  .admin-stats {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+  }
+  
+  .stat-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Add more styles as needed */
+  

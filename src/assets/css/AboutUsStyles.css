@@ -1,0 +1,38 @@
+/* AboutUsStyles.css */
+
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-us-title {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-description {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+  }
+
+  .about-color {
+    background-image: url("../images/admin.webp");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;  /* Use 'cover' to make sure the background covers the entire container */
+    background-position: center;  /* Center the background image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  
+  /* Add more styles as needed */
+  

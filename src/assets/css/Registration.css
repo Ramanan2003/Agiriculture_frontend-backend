@@ -1,0 +1,96 @@
+  
+.bg-color {
+  background-image: url("../images/registration.jpg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;  /* Use 'cover' to make sure the background covers the entire container */
+  background-position: center;  /* Center the background image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.registration-form-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  border: 2px solid #3498db;
+  border-radius: 15px;
+  background-color:transparent ;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+.registration-form-container:hover {
+  transform: scale(1.02);
+}
+
+.registration-form-container h2 {
+  text-align: center;
+  color: #3498db;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.registration-form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.registration-form-container label {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.registration-form-container input,
+.registration-form-container textarea {
+  margin-top: 10px;
+  padding: 12px;
+  border: 2px solid #3498db;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: border-color 0.3s;
+}
+
+.registration-form-container input:focus,
+.registration-form-container textarea:focus {
+  border-color: #e74c3c;
+}
+
+.registration-form-container button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.registration-form-container button:hover {
+  background-color: #c0392b;
+}
+
+.registration-form-container p {
+  margin-top: 25px;
+  text-align: center;
+  color: #666;
+  font-size: 16px;
+}
+
+.registration-form-container a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.registration-form-container a:hover {
+  color: #e74c3c;
+}
+.label{
+  color:#3498db;
+}

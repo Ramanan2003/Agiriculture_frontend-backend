@@ -1,0 +1,54 @@
+/* assets/css/FarmerGuidesStyles.css */
+
+
+.scheme-color {
+    background-image: url("../images/fund.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;  /* Use 'cover' to make sure the background covers the entire container */
+    background-position: center;  /* Center the background image */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.farmer-guides-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .guides-title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .guides-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .guide-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+  .guide-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .guide-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .guide-description {
+    font-size: 1rem;
+    color: #555;
+  }
+
+
+  
